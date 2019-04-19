@@ -3,8 +3,10 @@
 #AUTOR
 # Jefferson 'slackjeff' Rocha <root@slackjeff.com.br>
 #
-#This Software is 100% Free?
+#Simple program to check if the software is free!
 #
+#LICENSE
+# GPL3
 #====================================================================|
 [[ "$UID" = '0' ]] && { echo "Root? Not Secure."; exit 1;}
 
@@ -23,6 +25,7 @@ end='\033[m'
 
 #==========================FUNC
 
+# Print help
 _HELP()
 {
     cat <<EOF
@@ -35,6 +38,7 @@ EOF
     return 0
 }
 
+# Search Software CSV
 _SEARCH()
 {
     # Local Vars.
