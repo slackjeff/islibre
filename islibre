@@ -67,4 +67,5 @@ case $1 in
         done
     ;;
     help) _HELP ;;
+    *) _HELP ;;
 esac
