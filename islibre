@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+#=====================HEADER=========================================|
+#AUTOR
+# Jefferson 'slackjeff' Rocha <root@slackjeff.com.br>
+#
+#This Software is 100% Free?
+#
+#====================================================================|
+[[ "$UID" = '0' ]] && { echo "Root? Not Secure."; exit 1;}
+
+#==========================VARS
+PRG='islibre'
+bd="${HOME}/.${PRG}/${PRG}.csv" # Database.
+
+#colors
+bgred='\033[37;41;1m'
+bgblue='\033[37;44;1m'
+bggreen='\033[37;42;1m'
+end='\033[m'
+
+#==========================TEST
+[[ ! -e "${bd}" ]] && { echo "${bd} NOT FOUND... ABORT."; exit 1;}
+
+#==========================FUNC
+
+_HELP()
+{
+    cat <<EOF
+$PRG - [OPTIONS]
+USAGE:
+
+search    Search Software
+help      Show this help and exit.
+EOF
+    return 0
+}
+
+_SEARCH()
+{
+    # Local Vars.
+    local search="$1"
+    local b="\b${search}\b"
+    local IFS
+
+    while IFS='&' read col1 col2 col3 col4; do
+        if [[ "$col1" =~ ^${b} ]]; then
+            col1="${col1^}"
+            echo -e "${bggreen}IS LIBRE${end}"
+            echo -e "${bgblue}Name:${end}     ${col1}"
+            echo -e "${bgblue}Category:${end} ${col2}"
+            echo -e "${bgblue}Website:${end}  ${col3}"
+            echo -e "${bgblue}License:${end}  ${col4}"
+            echo "+--------------------------------------------+"
+            return 0
+        fi
+    done < "${bd}"
+    return 1
+}
+
+#==========================MAIN
+case $1 in
+    search)
+        shift
+        while [[ -n "$1" ]]; do
+            _SEARCH "$1" || echo -e "${bgred}${1} NOT FOUND.${end}"
+            shift  
+        done
+    ;;
+    help) _HELP ;;
+esac
