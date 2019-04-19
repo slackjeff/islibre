@@ -6,7 +6,7 @@
 #Simple program to check if the software is free!
 #
 #LICENSE
-# GPL3
+# GPL2
 #====================================================================|
 [[ "$UID" = '0' ]] && { echo "Root? Not Secure."; exit 1;}
 
