@@ -47,6 +47,7 @@ _SEARCH()
     local IFS
 
     while IFS='&' read col1 col2 col3 col4; do
+        [[ "$col1" =~ ^# ]] && continue
         if [[ "$col1" =~ ^${b} ]]; then
             col1="${col1^}"
             echo -e "${bggreen}IS LIBRE${end}"
