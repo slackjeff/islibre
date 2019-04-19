@@ -14,7 +14,7 @@ Run islibre<br>
 ## PLEASE HELP
 Please help us further increase our CSV with Free software.<br>
 ***The format is:*** Name, Category, Website, License.<br>
-***The delimiter used is:*** &<br>
+***The delimiter used is:*** &<br><br>
 ***Example Chromium***<br>
 chromium&WebBrowser&https://chromium.org/&MPL/GPL/LGPL<br><br>
 ***Example Simple Screen Recorder***<br>
