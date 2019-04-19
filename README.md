@@ -4,6 +4,9 @@ Simple program to check if the software is free! CSV power ![VERSION]
 
 ## Prints
 ![img1]
+
+***Use REGEX for search ;)***<br>
+
 ![img2]
 
 ## INSTALL
