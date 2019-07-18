@@ -5,4 +5,6 @@ chromium&Web Browser&https://chromium.org/&MPL/GPL/LGPL
 # S
 simplescreenrecorder&Recorder&https://www.maartenbaert.be/simplescreenrecorder/&GPL3
 # F
-firefox&Web Browser&https://www.mozilla.org/en-US/firefox/new/&MPL2
+firefox&Web Browser&https://www.mozilla.org/en-US/firefox/&MPL2
+# N
+nano&Text Editor&https://www.nano-editor.org/&GPL3
