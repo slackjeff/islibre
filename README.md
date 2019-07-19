@@ -25,5 +25,5 @@ simplescreenrecorder&Recorder&https://www.maartenbaert.be/simplescreenrecorder/&
 
 [VERSION]: https://img.shields.io/badge/LICENSE-GPL2-brightgreen.svg
 [banner]: https://raw.githubusercontent.com/slackjeff/islibre/master/img/islibre.png
-[img1]: https://raw.githubusercontent.com/slackjeff/islibre/master/img/show.png
+[img1]: https://raw.githubusercontent.com/elieltinzinho/islibre/master/img/islibre.png
 [img2]: https://raw.githubusercontent.com/slackjeff/islibre/master/img/show2.png
