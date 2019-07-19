@@ -24,6 +24,6 @@ chromium&WebBrowser&https://chromium.org/&MPL/GPL/LGPL<br><br>
 simplescreenrecorder&Recorder&https://www.maartenbaert.be/simplescreenrecorder/&GPL3<br>
 
 [VERSION]: https://img.shields.io/badge/LICENSE-GPL2-brightgreen.svg
-[banner]: https://raw.githubusercontent.com/slackjeff/islibre/master/img/islibre.png
-[img1]: https://raw.githubusercontent.com/elieltinzinho/islibre/master/img/islibre.png
+[banner]: https://raw.githubusercontent.com/elieltinzinho/islibre/master/img/islibre.png
+[img1]: 
 [img2]: https://raw.githubusercontent.com/slackjeff/islibre/master/img/show2.png
