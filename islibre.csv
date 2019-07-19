@@ -7,6 +7,10 @@ simplescreenrecorder&Recorder&https://www.maartenbaert.be/simplescreenrecorder/&
 # F
 firefox&Web Browser&https://www.mozilla.org/en-US/firefox/&MPL2
 # N
-nano&Text Editor&https://www.nano-editor.org/&GPL3
+nano&Text Editor(cli)&https://www.nano-editor.org/&GPL3
 # X
 xfce4&Desktop Environment&https://www.xfce.org/&GPL/BSDL/LGPL
+# V
+vlc&Video Player&https://www.videolan.org/vlc/&GPL
+# G
+gedit&Text Editor&https://wiki.gnome.org/Apps/Gedit/&GPL2
