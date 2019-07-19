@@ -44,6 +44,10 @@ gpa&Graphical User Interface For The GnuPG&https://www.gnupg.org/related_softwar
 gparted&Managing Your Disk Partitions&https://gparted.org/&GPL2
 # P
 p7zip&File Archiver&http://p7zip.sourceforge.net/&LGPL2
+# C
+coreutils& GNU Core Utilities&https://www.gnu.org/software/coreutils/&GPL
+# N
+networkmanager&Graphic Network Manager&https://wiki.gnome.org/Projects/NetworkManager&GPL
 
 
 
