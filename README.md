@@ -11,6 +11,7 @@ Simple program to check if the software is free! CSV power ![VERSION]
 
 ## INSTALL
 git clone https://github.com/slackjeff/islibre<br>
+or https://github.com/elieltinzinho/islibre<br>
 chmod +x install-islibre.sh<br>
 Run islibre<br>
 
