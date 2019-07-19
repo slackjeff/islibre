@@ -14,3 +14,17 @@ xfce4&Desktop Environment&https://www.xfce.org/&GPL/BSDL/LGPL
 vlc&Video Player&https://www.videolan.org/vlc/&GPL
 # G
 gedit&Text Editor&https://wiki.gnome.org/Apps/Gedit/&GPL2
+# D
+du&Estimate File Space Usage&http://www.gnu.org/software/coreutils/du/&GPL3
+# G
+gimp&Image Editor&http://www.gimp.org/&GPL3
+# G
+glade&User Interface Builder&http://glade.gnome.org/&GPL2
+# A
+audacious&Music Player&https://audacious-media-player.org/&BSDL2
+# T
+transmission&Bittorent Client&https://transmissionbt.com/&GPL2/GPL3
+# B
+bleachbit&Cleaner&https://www.bleachbit.org/&GPL
+# E
+evince&Document Viewer&https://wiki.gnome.org/Apps/Evince/&GPL2
