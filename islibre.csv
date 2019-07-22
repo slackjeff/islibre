@@ -47,8 +47,13 @@ p7zip&File Archiver&http://p7zip.sourceforge.net/&LGPL2
 # C
 coreutils& GNU Core Utilities&https://www.gnu.org/software/coreutils/&GPL
 # N
-networkmanager&Graphic Network Manager&https://wiki.gnome.org/Projects/NetworkManager&GPL
-
+networkmanager&Graphic Network Manager&https://wiki.gnome.org/Projects/NetworkManager/&GPL
+# O
+openoffice&Office Suite&https://www.openoffice.org/&GPL3
+# C
+cmake&Graphic Compiler&https://cmake.org/&BSDL3
+# I
+inkscape&Vector Image Editor&https://inkscape.org/&GPL
 
 
 
